@@ -1,0 +1,19 @@
+.promotions-header{
+    background-color: orange;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+
+}
+.promotions-header h3{
+    margin: 25px 0 0 25px ;
+}
+.products-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.products-list > div {
+    margin-top: 15px;
+}

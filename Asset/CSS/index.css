@@ -1,0 +1,138 @@
+body{
+    background-color: white;
+}
+header{
+    height: 250px;
+    background-color: black;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    color: white;
+}
+
+
+
+.profile-container{
+    display: flex;
+}
+.profile-container li{
+    margin: 10px;
+}
+.logo-container h1{
+    margin: 10px;
+    font-family: 'Joti One', serif;
+    font-size: 20px;
+    color: white;
+    }
+#langbutton{
+    padding: 0;
+}
+.secondarycolor{
+    color: orange;
+}
+.nav-container{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+}
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+#menu-container{
+    display: flex;
+}
+.slide-container{
+    margin: 50px;
+}
+.slide-container img:first-child {
+    width: 600px;
+    height: 384px;
+}
+.slide-container img:nth-child(2){
+    width: 300;
+    height: 344;
+}
+.slideimg{
+    display: flex;
+    justify-content: space-evenly;
+}
+.dealname-container h2{
+    font-size: larger;
+    font-weight: 700;
+    margin: 20px 65px  ;
+}
+.card-container img{
+    background-color: whitesmoke;
+}
+.card-container{
+    text-decoration: none;
+    text-align: left;
+}
+.rating{
+    color: orange;
+}
+.product-card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.product-card-container img{
+    height: 230px;
+}
+.card .card-body h5 {
+    margin-top: 5px;
+}
+.product-card-container button{
+    margin-top: 35px;
+}
+footer{
+    background-color: black;
+    height: 200px;
+}
+
+.paymentmethod img{
+
+    width: 50px;
+    height: 20px;
+    margin-top: 10px;
+}
+.paymentmethod .bankimage{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+
+}
+.paymentmethod {
+    display: flex;
+    padding-top: 20px;
+   
+}
+.paymentmethod h5{
+    color: whitesmoke;
+    margin-left: 30px;
+}
+.information{
+    display: flex;
+    margin-top: 25px;
+    color: whitesmoke;
+
+}
+.information  > ul {
+    margin-right: 140px;
+    padding: 0;
+}
+.information  .socialmedia {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-navi {
+
+    display:flex;
+    margin: 15px;
+    justify-content: center;
+
+}
